@@ -18,13 +18,23 @@ body {
     user-select: none;
 }
 
-ul {
+.medals ul {
     list-style: none;
     padding-left: 0;
 }
 
-li {
+.medals li {
     margin: 0.5rem 0;
+}
+
+.medals small {
+    font-size: 0.75rem;
+}
+
+.medals a:link, a:visited {
+    color: white;
+    font-size: 0.75rem;
+    display: block;
 }
 
 canvas {
