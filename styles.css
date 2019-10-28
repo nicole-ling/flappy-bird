@@ -1,0 +1,33 @@
+body {
+    background-color: #222222;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.medals {
+    background-color: #0f0f0f;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 290px;
+    color: white;
+    text-align: center;
+    user-select: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+canvas {
+    display: block;
+    margin: 10vh auto 5vh auto;
+}
