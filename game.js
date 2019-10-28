@@ -4,6 +4,7 @@ const context = canvas.getContext("2d")
 
 // GAME VARIABLES
 let frames = 0
+const fps = 90
 const DEGREE = Math.PI/180;
 
 // LOAD GAME SPRITES AND SOUNDS
@@ -425,7 +426,10 @@ function loop(){
     draw()
     frames++
 
-    requestAnimationFrame(loop)
+    // LIMIT FRAME RATE
+    setTimeout(function(){
+        requestAnimationFrame(loop)
+    }, 1000 / fps)
 }
 
 loop()
