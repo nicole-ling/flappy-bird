@@ -62,3 +62,9 @@ This is an implementation of the Flappy Bird game using HTML and JavaScript. See
 
 ## Authors
 Nicole Ling, Zhaleh Sojoodi, Will Fenn
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
