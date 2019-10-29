@@ -396,6 +396,13 @@ const score = {
     }
 }
 
+// UPDATE
+function update(){
+    bird.update()
+    foreground.update()
+    pipes.update()
+}
+
 // DRAW GAME ELEMENTS
 function draw(){
     context.fillStyle = "#70C5CE"
@@ -411,13 +418,6 @@ function draw(){
     goldMedal.draw()
     platinumMedal.draw()
     score.draw()
-}
-
-// UPDATE
-function update(){
-    bird.update()
-    foreground.update()
-    pipes.update()
 }
 
 // LOOP
