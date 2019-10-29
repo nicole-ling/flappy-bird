@@ -432,4 +432,5 @@ function loop(){
     }, 1000 / fps)
 }
 
+// Starts Animations
 loop()
