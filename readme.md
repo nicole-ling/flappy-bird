@@ -6,7 +6,7 @@ This is an implementation of the Flappy Bird game using HTML and JavaScript. See
 
 ## 1. Built on the HTML Canvas
 - All the game elements are drawn on the canvas
-- We draw the game elements with reference to a sprite image
+- We draw the game elements with reference to a [sprite image](http://ssd-flappy-bird.netlify.com/images/sprite.png)
 - The user clicks on the canvas to interact with the game
 <br/>
 <br/>
@@ -24,7 +24,7 @@ This is an implementation of the Flappy Bird game using HTML and JavaScript. See
 - As soon as the page is loaded, the 'loop' function is called
 - The 'loop' function is called recursively by using 'requestAnimationFrame(loop)'
 - We place the **requestAnimationFrame(loop)** function in a **setTimeout** function to control the amount of milliseconds between each frame animation
-- We do this to accomodate for monitors with refresh rates of over 60hz, as the game frames would animate too fast otherwise
+- We use a **setTimeout** to accomodate for monitors with refresh rates of over 60hz, as the game frames would animate too fast otherwise
 - Recursion is when a function calls itself
 <br/>
 <br/>
@@ -32,10 +32,10 @@ This is an implementation of the Flappy Bird game using HTML and JavaScript. See
 
 ## 4. Drawing and Updating Game Objects
 - If you check the loop() function, you will see the update() function is called first
-- When we call update(), we are checking for collisions between the Bird and the Pipes + Foreground
-- We are also updating the X and Y coordinates of the Bird, Foreground, and Pipes accordingly
-- If you check the loop() function, you will see the draw() function is called after the update() function
-- Once we use update() to find the updated coordinates, we set the new coordinate values which are passed to the draw() function
+- When we call update(), we are checking for collisions between the bird and the pipes, or the ground
+- When we call update(), we are also updating the X Y coordinates of the bird and the pipes accordingly
+- The bird should constantly be falling down, and the pipes should constantly be moving to the left of the canvas
+- Once we use update() to find the updated coordinates, they are then passed to the draw() function in the loop() function
 - When calling the update() and draw() functions in the loop() function, we are making all the game objects call their own update and draw functions
 <br/>
 <br/>
