@@ -1,7 +1,11 @@
 # Flappy Bird Game
 This is an implementation of the Flappy Bird game using HTML and JavaScript.
 
-## All game elements are drawn on the HTML Canvas
+## 1. All game elements are drawn on the HTML Canvas
+
+<br/>
+<br/>
+<br/>
 
 ## Authors
 **Nicole Ling**
