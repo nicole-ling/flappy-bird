@@ -1,16 +1,10 @@
 # Flappy Bird Game
 This is an implementation of the Flappy Bird game using HTML and JavaScript. See it live at [http://ssd-flappy-bird.netlify.com](http://ssd-flappy-bird.netlify.com)
-<br/>
-<br/>
-<br/>
 
 ## 1. Built on the HTML Canvas
 - All the game elements are drawn on the canvas
 - We draw the game elements with reference to a [sprite image](http://ssd-flappy-bird.netlify.com/images/sprite.png)
 - The user clicks on the canvas to interact with the game
-<br/>
-<br/>
-<br/>
 
 ## 2. Game Objects and Their Functions
 - Each game object has their own properties, like their X and Y coordinates on the canvas, or their width and height
@@ -64,9 +58,6 @@ function loop(){
 // Starts Animations
 loop()
 ```
-<br/>
-<br/>
-<br/>
 
 ## 4. Drawing and Updating Game Objects
 - If you check the loop() function, you will see the update() function is called first
@@ -100,9 +91,6 @@ function draw(){
     score.draw()
 }
 ```
-<br/>
-<br/>
-<br/>
 
 ## 5. Tracking Game State when the Canvas is Clicked
 - The game has a total of 3 possible states, which are the **Get Ready State**, the **In Game State**, and the **Game Over State**
@@ -147,9 +135,6 @@ canvas.addEventListener("click", function(e){
     }
 })
 ```
-<br/>
-<br/>
-<br/>
 
 ## 6. Game Over!
 - During the **Game Over State**, we draw the Game Over image on the canvas, which also displays the number of points the user scored
@@ -161,4 +146,6 @@ canvas.addEventListener("click", function(e){
 <br/>
 
 ## Authors
-Nicole Ling, Zhaleh Sojoodi, Will Fenn
+**Nicole Ling** [nicole-ling](http://www.github.com/nicole-ling)
+**Zhaleh Sojoodi** [Jalehs](http://www.github.com/Jalehs)
+**Will Fenn**
