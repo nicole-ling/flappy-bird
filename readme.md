@@ -146,6 +146,6 @@ canvas.addEventListener("click", function(e){
 <br/>
 
 ## Authors
-**Nicole Ling** [nicole-ling](http://www.github.com/nicole-ling)
-**Zhaleh Sojoodi** [Jalehs](http://www.github.com/Jalehs)
-**Will Fenn**
+* **Nicole Ling** - [nicole-ling](https://github.com/nicole-ling)
+* **Zhaleh Sojoodi** - [Jalehs](http://www.github.com/Jalehs)
+* **Will Fenn**
